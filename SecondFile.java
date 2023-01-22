@@ -1,3 +1,8 @@
+
+/**
+ * File Handling by using Data Stream
+ */
+
 import java.io.DataInputStream;
 import java.io.DataOutputStream;
 import java.io.FileInputStream;
@@ -15,7 +20,7 @@ public class SecondFile {
                 System.out.println("Enter ID:");
                 int id = ob.nextInt();
                 System.out.println("Enter name:");
-                ob.nextLine();
+                ob.nextLine();// To clear the buffer
                 String name = ob.nextLine();
                 System.out.println("Enter email");
                 String email = ob.nextLine();
