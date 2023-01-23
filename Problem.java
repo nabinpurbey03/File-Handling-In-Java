@@ -7,7 +7,7 @@ public class Problem {
         String s = "This file will demostrate how to cope data from one file and paste to another file.";
         byte[] b = s.getBytes();
         try {
-            // Creating a initial file
+            // Creating an initial file
             FileOutputStream fout = new FileOutputStream("main_file.txt");
             fout.write(b);// Written in file
             fout.close(); // Closed fout
