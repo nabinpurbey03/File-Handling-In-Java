@@ -1,0 +1,1 @@
+This file will demostrate how to cope data from one file and paste to another file.
