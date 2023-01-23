@@ -26,10 +26,12 @@ public class FirstFile {
                     char a = (char) ch;
                     System.out.print(a);
                 }
-                fin.close();
-                fout.close();
+                fin.close();// fin closed
+                fout.close();// fout closed
             } catch (IOException ex) {
                 ex.printStackTrace();
+            } finally {
+                System.out.println("The file has been saved successfull.");
             }
         }
     }
