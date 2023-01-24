@@ -24,6 +24,8 @@ public class ThirdFile {
             fr.close();
         } catch (IOException ex) {
             ex.printStackTrace();
+        } finally {
+            System.out.println("The file has been saved successfull.");
         }
     }
 
