@@ -1,3 +1,9 @@
+
+/**
+ * This is the code to create a file and store some data in it and then create another file and
+ * copy the data of file the second file. Finally display the data from the second file.
+ */
+
 import java.io.FileInputStream;
 import java.io.FileOutputStream;
 import java.io.IOException;
