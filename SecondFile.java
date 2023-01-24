@@ -40,6 +40,8 @@ public class SecondFile {
                 din.close();
             } catch (IOException ex) {
                 ex.printStackTrace();
+            } finally {
+                System.out.println("The file has been saved successfull.");
             }
         }
     }
