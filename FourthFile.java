@@ -10,6 +10,9 @@ import java.io.ObjectInputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
+/**
+ * Initalizing a class "Student" and implementing "Serializable" interface
+ */
 class Student implements Serializable {
     private int id;
     private String name, faculty;
