@@ -27,7 +27,6 @@ public class FirstFile {
                     System.out.print(a);
                 }
                 fin.close();// fin closed
-                fout.close();// fout closed
             } catch (IOException ex) {
                 ex.printStackTrace();
             } finally {
