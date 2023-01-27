@@ -14,14 +14,14 @@ public class ThirdFile {
             FileWriter fw = new FileWriter("File3.txt");
             String s = "This is an example of Character Stream.";
             fw.write(s);
-            fw.close();
+            fw.close(); // fw closed
             // To read from file "File1.txt"
             FileReader fr = new FileReader("File3.txt");
             int ch;
             while ((ch = fr.read()) != -1) {
                 System.out.print((char) ch);
             }
-            fr.close();
+            fr.close(); // fr closed
         } catch (IOException ex) {
             ex.printStackTrace();
         } finally {
