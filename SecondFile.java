@@ -27,8 +27,8 @@ public class SecondFile {
                 dout.writeInt(id);
                 dout.writeUTF(name);
                 dout.writeUTF(email);
-                dout.close();
-                fout.close();
+                dout.close(); // dout closed
+                fout.close(); // fout closed
                 // To read from file "File1.txt"
                 FileInputStream fin = new FileInputStream("File2.txt");
                 DataInputStream din = new DataInputStream(fin);
@@ -36,8 +36,8 @@ public class SecondFile {
                 System.out.println(din.readInt());
                 System.out.println(din.readUTF());
                 System.out.println(din.readUTF());
-                fin.close();
-                din.close();
+                fin.close(); // fin closed
+                din.close(); // din closed
             } catch (IOException ex) {
                 ex.printStackTrace();
             } finally {
